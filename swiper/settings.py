@@ -34,6 +34,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.staticfiles',
+
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -72,7 +74,7 @@ DATABASES = {
         'HOST' : 'localhost',
         'PORT' : '3306',
         'USER' : 'cheng',
-        'PASSWORD' : '1',
+        'PASSWORD' : '123',
         'NAME': 'swiper',
     }
 }
